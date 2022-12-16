@@ -11,12 +11,15 @@ body{
     align-content: center;
     align-items: center;
     height: 100vh;
+    padding: 10px;
     
 }
 
 .bg{
-   background-color: whitesmoke;
-    width: 570px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    max-width: 570px;
     height: 220px;
     padding: 15px;
     box-shadow: -1px 5px 5px 3px rgba(0,0,0,0.39);
